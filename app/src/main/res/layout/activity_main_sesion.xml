@@ -38,18 +38,17 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_below="@+id/txtContrasena"
-        android:layout_marginEnd="143dp"
-        android:layout_marginTop="30dp"
-        android:text="Se olvido la constraseña" />
+        android:layout_marginEnd="11dp"
+        android:text="Se olvido la constraseña"
+        android:layout_alignParentBottom="true"
+        android:layout_alignEnd="@+id/btnIniciar" />
 
     <Button
         android:id="@+id/btnIniciar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="18dp"
-        android:text="Ingresar"
-        android:layout_below="@+id/textView"
+        android:text="Iniciar sesión"
+        android:layout_marginTop="43dp"
+        android:layout_below="@+id/txtContrasena"
         android:layout_centerHorizontal="true" />
 </RelativeLayout>
