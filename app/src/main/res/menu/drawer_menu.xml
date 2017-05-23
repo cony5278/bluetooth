@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/calculo"
+        android:icon="@android:drawable/ic_menu_gallery"
+        android:title="Calculo" />
+
+    <item
+        android:id="@+id/reporte"
+        android:icon="@android:drawable/ic_menu_set_as"
+        android:title="Reporte" />
+
+    <item
+        android:id="@+id/acerca"
+        android:icon="@android:drawable/ic_menu_call"
+        android:title="Quienes somos" />
+
+    <item
+        android:id="@+id/close"
+        android:icon="@android:drawable/ic_menu_info_details"
+        android:title="Salir" />
+</menu>
