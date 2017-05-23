@@ -13,13 +13,13 @@ import butterknife.OnClick;
 
 public class MainSesion extends AppCompatActivity implements VistaImplementSesion {
     @BindView(R.id.btnIniciar)
-    private  Button btnIniciar;
+    Button btnIniciar;
     private PresentadorSesion presentadorSesion;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_sesion);
-        presentadorSesion=new PresentadorSesion();
+        presentadorSesion=new PresentadorSesion(this);
     }
     @OnClick(R.id.btnIniciar)
     public void clickIniciarSesion() {
